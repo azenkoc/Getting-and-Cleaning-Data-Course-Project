@@ -45,4 +45,4 @@ meanstdData<-mergedDataSet[,..desiredcols]
 meltedIndDataSet<-melt.data.table(meanstdData,id.vars = c("Subject","Activity"))
 AvIndDataSet <- dcast.data.table(meltedIndDataSet, Subject + Activity ~ variable, mean)
 
-write.csv(AvIndDataSet,"tidyDataSet.csv")
+write.table(AvIndDataSet,"tidyDataSet.csv")
