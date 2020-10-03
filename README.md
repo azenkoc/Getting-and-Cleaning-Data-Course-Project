@@ -20,4 +20,4 @@ This project uses data from [link](http://archive.ics.uci.edu/ml/datasets/Human+
 
 4-Independent data set, containing average of each variable for each activity and each subject. Data melted and casted according to Subject and Activity columns.
 
-5- Resulting tidy data set written as tidyDataSet.csv. 
+5- Resulting tidy data set written as tidyDataSet.txt. 
